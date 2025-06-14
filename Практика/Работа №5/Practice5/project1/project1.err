@@ -1,0 +1,29 @@
+warning; file ; line ; column ; unable to open list file "lcmp.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "ldc_byte.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "ldiv.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "powerup.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "str_cops.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "lmul.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "lcmp.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "ldc_byte.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "ldiv.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "powerup.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "str_cops.rlf": No such file or directory
+warning; file ; line ; column ; unable to open list file "lmul.rlf": No such file or directory
+
+Memory Usage Map:
+
+Program space:
+    CODE                 used   8CAh (  2250) of  1000h bytes   ( 54.9%)
+
+Internal Data:
+    BITSEG               used     0h (     0) of    10h bits    (  0.0%)
+    DATA                 used    5Dh (    93) of    60h bytes   ( 96.9%)
+
+External Data:
+
+Summary:
+    Program space        used   8CAh (  2250) of  1000h bytes   ( 54.9%)
+    Internal Data        used    5Dh (    93) of    80h bytes   ( 72.7%)
+    External Data        None available
+

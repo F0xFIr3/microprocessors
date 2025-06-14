@@ -1,0 +1,137 @@
+HI-TECH Software 8051-C Compiler V9.60
+
+Linker command line:
+
+--edf=C:\PROGRA~2\HI-TEC~1\HC51\lite\9.60\dat\en_msgs.txt \
+  -h+C:\Users\Pavel\Desktop\3()~1\1072~1\E703~1\5CF8D~1\PRACTI~1\project1\project1.sym \
+  -z -Q8051AH -ol.obj \
+  -MC:\Users\Pavel\Desktop\3()~1\1072~1\E703~1\5CF8D~1\PRACTI~1\project1\project1.map \
+  -E1 -ver=8051-C#V9.60 -ACODE=00h-0FFFh -pvectors=00h \
+  -prbit=0/20h,rbss,rdata/CODE,irdata/CODE,idata/rbss -pbss=XDATA/idata \
+  -pdata=CODE+100h -pconst=CODE+100h -pstrings=CODE+100h -pnvram=bss,heap \
+  C:\Users\Pavel\AppData\Local\Temp\s4j8.obj \
+  C:\Users\Pavel\Desktop\3()~1\1072~1\E703~1\5CF8D~1\PRACTI~1\project1\main_0.obj \
+  C:\PROGRA~2\HI-TEC~1\HC51\lite\9.60\lib\51--nsc.lib 
+
+Object code version is 3.8
+
+Machine type is 8051AH
+
+Call graph:
+
+*start1 size 0,0 offset 0
+*    _main size 0,75 offset 0
+         _lcd_init size 0,0 offset 75
+         _atol_custom size 0,10 offset 75
+         _lcd_clear size 0,0 offset 75
+         _lcd_display_operator size 0,3 offset 75
+             _lcd_display_str size 0,2 offset 78
+                 _lcd_set_cursor size 0,0 offset 80
+                 _lcd_display_char size 0,0 offset 80
+         _calculate size 9,4 offset 75
+*        _itoa_custom size 4,14 offset 75
+         _lcd_display_str size 0,2 offset 78
+             _lcd_set_cursor size 0,0 offset 80
+             _lcd_display_char size 0,0 offset 80
+
+		Name          Link     Load   Length Selector Space Scale
+C:\Users\Pavel\AppData\Local\Temp\s4j8.obj
+		vectors          0        0        3       0     0
+		text           8B8      8B8       14     100     0
+C:\Users\Pavel\Desktop\3()~1\1072~1\E703~1\5CF8D~1\PRACTI~1\project1\main_0.obj
+		data           100      100       35     100     0
+		strings        135      135       29     100     0
+		text           15E      15E      59E     100     0
+
+C:\PROGRA~2\HI-TEC~1\HC51\lite\9.60\lib\51--nsc.lib
+lcmp.obj        text           896      896       22     100     0
+ldc_byte.obj    text            88       88       73       0     0
+ldiv.obj        text           6FC      6FC      159     100     0
+powerup.obj     text            FB       FB        3       0     0
+str_cops.obj    text           855      855       41     100     0
+lmul.obj        text             3        3       85       0     0
+
+COMMON          rbss            20       20       5D      20     1
+
+TOTAL		Name          Link     Load   Length
+	CLASS	CODE     
+		vectors          0        0        3
+		data           100      100       35
+		text           8B8      8B8       14
+		strings        135      135       29
+		text           15E      15E      59E
+		text           896      896       22
+		text            88       88       73
+		text           6FC      6FC      159
+		text            FB       FB        3
+		text           855      855       41
+		text             3        3       85
+
+	CLASS	DATA     
+		rbss            20       20       5D
+
+	CLASS	XDATA    
+
+	CLASS	BITSEG   
+
+
+
+SEGMENTS	Name		Load	Length	 Top	Selector    Space Class
+
+		vectors         000000	0000FE	0000FE	       0       0  CODE    
+		rbit            000020	00005D	00007D	      20       1  BITSEG  
+		data            000100	0007CC	0008CC	     100       0  CODE    
+
+
+UNUSED ADDRESS RANGES
+
+	CODE             0FE-0FF
+	                 8CC-FFF
+
+                                  Symbol Table
+
+?_calculate             rbss    06B  ?_itoa_custom           rbss    06B
+?a_atol_custom          rbss    06B  ?a_calculate            rbss    074
+?a_itoa_custom          rbss    06F  ?a_lcd_display_operator rbss    06B
+?a_lcd_display_str      rbss    06E  ?a_main                 rbss    020
+__Bbss                  bss     07D  __Bidata                idata   07D
+__Birdata               irdata  003  __Brbit                 rbit    020
+__Brdata                rdata   003  __Hbss                  bss     07D
+__Hcode                 code    07D  __Hconst                const   100
+__Hdata                 data    135  __Hheap                 heap    07D
+__Hidata                idata   07D  __Hirdata               irdata  07D
+__Hnvram                nvram   07D  __Hrbit                 rbit    000
+__Hrbss                 rbss    07D  __Hrdata                rdata   07D
+__Hstrings              strings 15E  __Htext                 text    07D
+__Hvectors              vectors 003  __Lbss                  bss     07D
+__Lcode                 code    07D  __Lconst                const   100
+__Ldata                 data    100  __Lheap                 heap    07D
+__Lidata                idata   07D  __Lirdata               irdata  07D
+__Lnvram                nvram   07D  __Lrbit                 rbit    000
+__Lrbss                 rbss    020  __Lrdata                rdata   07D
+__Lstrings              strings 135  __Ltext                 text    07D
+__Lvectors              vectors 000  __S0                    (abs)   8CC
+_atol_custom            text    20B  _calculate              text    36C
+_exit                   text    8C9  _itoa_custom            text    2B4
+_lcd_clear              text    19B  _lcd_display_char       text    18E
+_lcd_display_operator   text    1F8  _lcd_display_str        text    1A9
+_lcd_init               text    15E  _lcd_set_cursor         text    17E
+_main                   text    44D  aldiv                   text    805
+almod                   text    82A  almul                   text    003
+intlevel0               (abs)   000  intlevel1               (abs)   000
+lcmp                    text    896  ldb_r0                  text    097
+ldb_r1                  text    0A4  ldb_r2                  text    0B1
+ldb_r3                  text    0BE  ldb_r4                  text    0CB
+ldb_r5                  text    0D8  ldb_r6                  text    0E5
+ldb_r7                  text    0F2  ldc_byte                text    088
+ldc_r0                  text    093  ldc_r1                  text    0A0
+ldc_r2                  text    0AD  ldc_r3                  text    0BA
+ldc_r4                  text    0C7  ldc_r5                  text    0D4
+ldc_r6                  text    0E1  ldc_r7                  text    0EE
+lldiv                   text    7C1  llmod                   text    7C9
+llmul                   text    003  powerup                 text    0FB
+small_model             (abs)   001  stack_internal          (abs)   001
+start                   vectors 000  start1                  text    8B8
+str_copy                text    86B  str_load                text    86B
+str_xcopy               text    855  strx_copy               text    86B
+strx_load               text    86B  strx_xcopy              text    855

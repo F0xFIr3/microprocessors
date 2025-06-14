@@ -1,0 +1,81 @@
+__Lrdata 29 FFFFFFDA DATA
+__Hrbss 29 0 DATA
+__Lrbss 20 0 DATA
+__Birdata 3 FFFFFFDA DATA
+__Hirdata 29 FFFFFFDA DATA
+__Lirdata 29 FFFFFFDA DATA
+powerup 9D 0 CODE
+__Htext 29 0
+__Ltext 29 0
+__Hcode 29 0
+__Lcode 29 0
+__Hdata 100 0 CODE
+__Hconst 100 0 CODE
+__Ldata 100 0 CODE
+__Lconst 100 0 CODE
+__Bbss 29 0 XDATA
+__Hbss 29 0 XDATA
+__Hstrings 100 0 CODE
+__Lbss 29 0 XDATA
+__Lstrings 100 0 CODE
+?a_msec 27 0 DATA
+__S0 100 0
+start1 89 0 CODE
+__Hnvram 29 0 XDATA
+small_model 1 0
+__Lnvram 29 0 XDATA
+_msec 3 0 CODE
+__Hheap 29 0 XDATA
+__Lheap 29 0 XDATA
+_main 3A 0 CODE
+?a_main 20 0 DATA
+_exit 9A 0 CODE
+start 0 0 CODE
+intlevel0 0 0
+__Brbit 20 20 BITSEG
+__Hrbit 0 20 BITSEG
+intlevel1 0 0
+__Hvectors 3 0 CODE
+__Lrbit 0 20 BITSEG
+__Lvectors 0 0 CODE
+__Bidata 29 0 DATA
+__Hidata 29 0 DATA
+__Lidata 29 0 DATA
+stack_internal 1 0
+__Brdata 3 FFFFFFDA DATA
+__Hrdata 29 FFFFFFDA DATA
+%segments
+vectors 0 9F CODE
+rbit 0 8 BITSEG
+%locals
+Z:\main_0.obj
+C:\Users\Pavel\Desktop\3()~1\1072~1\E703~1\41A98~1\PRACTI~1\project1\main.c
+2 3 0 CODE
+3 9 0 CODE
+4 B 0 CODE
+5 E 0 CODE
+6 11 0 CODE
+8 13 0 CODE
+9 1A 0 CODE
+10 1C 0 CODE
+3 1E 0 CODE
+12 37 0 CODE
+14 3A 0 CODE
+17 3C 0 CODE
+18 3F 0 CODE
+19 42 0 CODE
+20 45 0 CODE
+21 48 0 CODE
+22 4B 0 CODE
+24 4E 0 CODE
+25 51 0 CODE
+26 58 0 CODE
+27 5C 0 CODE
+28 63 0 CODE
+29 67 0 CODE
+30 6E 0 CODE
+31 72 0 CODE
+32 79 0 CODE
+33 7D 0 CODE
+23 84 0 CODE
+35 86 0 CODE
