@@ -1,0 +1,98 @@
+HI-TECH Software 8051-C Compiler V9.60
+
+Linker command line:
+
+--edf=C:\PROGRA~2\HI-TEC~1\HC51\lite\9.60\dat\en_msgs.txt \
+  -h+Z:\project1.sym -z -Q8052AH -ol.obj -MZ:\project1.map -E1 \
+  -ver=8051-C#V9.60 -ACODE=00h-01FFFh -pvectors=00h \
+  -prbit=0/20h,rbss,rdata/CODE,irdata/CODE,idata/rbss -pbss=XDATA/idata \
+  -pdata=CODE+100h -pconst=CODE+100h -pstrings=CODE+100h -pnvram=bss,heap \
+  C:\Users\Pavel\AppData\Local\Temp\seug.obj Z:\main_0.obj \
+  C:\PROGRA~2\HI-TEC~1\HC51\lite\9.60\lib\51--nsc.lib 
+
+Object code version is 3.8
+
+Machine type is 8052AH
+
+Call graph:
+
+*start1 size 0,0 offset 0
+*    _main size 0,2 offset 0
+*        _square size 0,0 offset 2
+
+		Name          Link     Load   Length Selector Space Scale
+C:\Users\Pavel\AppData\Local\Temp\seug.obj
+		vectors          0        0        3       0     0
+		text            E5       E5       14       0     0
+Z:\main_0.obj   rbss            20       20        4      20     1
+		data           100      100        6     100     0
+		text             3        3       E2       0     0
+
+C:\PROGRA~2\HI-TEC~1\HC51\lite\9.60\lib\51--nsc.lib
+powerup.obj     text            F9       F9        3       0     0
+mul.obj         text           1C6      1C6       1E     100     0
+div.obj         text           106      106       C0     100     0
+
+COMMON          rbss            24       24        2      20     1
+
+TOTAL		Name          Link     Load   Length
+	CLASS	CODE     
+		vectors          0        0        3
+		data           100      100        6
+		text            E5       E5       14
+		text             3        3       E2
+		text            F9       F9        3
+		text           1C6      1C6       1E
+		text           106      106       C0
+
+	CLASS	DATA     
+		rbss            20       20        6
+
+	CLASS	XDATA    
+
+	CLASS	BITSEG   
+
+
+
+SEGMENTS	Name		Load	Length	 Top	Selector    Space Class
+
+		vectors         000000	0000FC	0000FC	       0       0  CODE    
+		rbit            000020	000006	000026	      20       1  BITSEG  
+		data            000100	0000E4	0001E4	     100       0  CODE    
+
+
+UNUSED ADDRESS RANGES
+
+	CODE             0FC-0FF
+	                 1E4-1FFF
+
+                                  Symbol Table
+
+?a_main        rbss    024  _Q             rbss    020
+_Qmax          data    104  _Qmin          data    102
+_T             data    100  __Bbss         bss     026
+__Bidata       idata   026  __Birdata      irdata  003
+__Brbit        rbit    020  __Brdata       rdata   003
+__Hbss         bss     026  __Hcode        code    026
+__Hconst       const   100  __Hdata        data    106
+__Hheap        heap    026  __Hidata       idata   026
+__Hirdata      irdata  026  __Hnvram       nvram   026
+__Hrbit        rbit    000  __Hrbss        rbss    026
+__Hrdata       rdata   026  __Hstrings     strings 100
+__Htext        text    026  __Hvectors     vectors 003
+__Lbss         bss     026  __Lcode        code    026
+__Lconst       const   100  __Ldata        data    100
+__Lheap        heap    026  __Lidata       idata   026
+__Lirdata      irdata  026  __Lnvram       nvram   026
+__Lrbit        rbit    000  __Lrbss        rbss    020
+__Lrdata       rdata   026  __Lstrings     strings 100
+__Ltext        text    026  __Lvectors     vectors 000
+__S0           (abs)   1E4  _exit          text    0F6
+_main          text    04B  _square        text    003
+_t             rbss    022  awdiv          text    196
+awmod          text    18E  awmul          text    1C6
+intlevel0      (abs)   000  intlevel1      (abs)   000
+lwdiv          text    15B  lwmod          text    167
+lwmul          text    1C6  powerup        text    0F9
+small_model    (abs)   001  stack_internal (abs)   001
+start          vectors 000  start1         text    0E5

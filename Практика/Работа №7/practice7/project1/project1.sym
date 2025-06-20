@@ -1,0 +1,93 @@
+__Lrdata 26 FFFFFFDD DATA
+__Hrbss 26 0 DATA
+__Lrbss 20 0 DATA
+__Birdata 3 FFFFFFDD DATA
+__Hirdata 26 FFFFFFDD DATA
+_Q 20 0 DATA
+__Lirdata 26 FFFFFFDD DATA
+_T 100 0 CODE
+_t 22 0 DATA
+powerup F9 0 CODE
+__Htext 26 0
+__Ltext 26 0
+__Hcode 26 0
+__Lcode 26 0
+__Hdata 106 0 CODE
+__Hconst 100 0 CODE
+__Ldata 100 0 CODE
+__Lconst 100 0 CODE
+__Bbss 26 0 XDATA
+__Hbss 26 0 XDATA
+__Hstrings 100 0 CODE
+__Lbss 26 0 XDATA
+__Lstrings 100 0 CODE
+__S0 1E4 0
+start1 E5 0 CODE
+__Hnvram 26 0 XDATA
+small_model 1 0
+__Lnvram 26 0 XDATA
+awmod 18E 0 CODE
+lwmod 167 0 CODE
+__Hheap 26 0 XDATA
+_Qmin 102 0 CODE
+__Lheap 26 0 XDATA
+_main 4B 0 CODE
+_square 3 0 CODE
+_Qmax 104 0 CODE
+awmul 1C6 0 CODE
+?a_main 24 0 DATA
+lwmul 1C6 0 CODE
+awdiv 196 0 CODE
+_exit F6 0 CODE
+lwdiv 15B 0 CODE
+start 0 0 CODE
+intlevel0 0 0
+__Brbit 20 20 BITSEG
+__Hrbit 0 20 BITSEG
+intlevel1 0 0
+__Hvectors 3 0 CODE
+__Lrbit 0 20 BITSEG
+__Lvectors 0 0 CODE
+__Bidata 26 0 DATA
+__Hidata 26 0 DATA
+__Lidata 26 0 DATA
+stack_internal 1 0
+__Brdata 3 FFFFFFDD DATA
+__Hrdata 26 FFFFFFDD DATA
+%segments
+vectors 0 FB CODE
+rbit 0 5 BITSEG
+data 100 1E3 CODE
+%locals
+Z:\main_0.obj
+C:\Users\Pavel\DOCUME~1\NATION~1\CIRCUI~1.0\MCUWOR~1\PRACTI~4\project1\main.c
+12 3 0 CODE
+13 5 0 CODE
+14 1B 0 CODE
+15 1D 0 CODE
+16 1F 0 CODE
+15 2B 0 CODE
+18 3B 0 CODE
+19 3D 0 CODE
+20 46 0 CODE
+21 48 0 CODE
+23 4B 0 CODE
+24 4E 0 CODE
+25 53 0 CODE
+26 59 0 CODE
+27 5C 0 CODE
+28 5F 0 CODE
+29 62 0 CODE
+30 65 0 CODE
+31 67 0 CODE
+32 69 0 CODE
+34 6C 0 CODE
+35 7F 0 CODE
+36 8B 0 CODE
+39 91 0 CODE
+40 A4 0 CODE
+41 B0 0 CODE
+43 B6 0 CODE
+44 DC 0 CODE
+33 DF 0 CODE
+47 E1 0 CODE
